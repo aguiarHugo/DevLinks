@@ -89,13 +89,17 @@ body * {
   z-index: 1;
   cursor: pointer;
 
-
   transform: translateY(-50%);
+
+  animation: slideDark .4s;
+}
+
+#switch button:hover {
+  outline: .8rem solid var(--social-link-hover);
 }
 
 .light #switch button {
-  right: 0;
-  left: initial;
+  animation: slideLight .4s forwards;
 }
 
 #switch span {
@@ -230,6 +234,24 @@ footer {
         opacity: 1;
         transform: translateX(0)
     }
+}
+
+@keyframes slideLight {
+  from {
+    left: 0;
+  }
+  to {
+    left: 50%;
+  }
+}
+
+@keyframes slideDark {
+  from{
+    left: 50%;
+  }
+  to {
+    left: 0;
+  }
 }
 
 @media (min-width: 700px) {
