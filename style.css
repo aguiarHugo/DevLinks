@@ -6,23 +6,23 @@
 
 :root {
   --text-color: #fff;
-  --bg-url: url(./assets/img/bg-mobile-dark.jpg);
+  --bg-url: url(./img/bg-mobile-dark.jpg);
   --stroke-color: rgba(255, 255, 255, 0.5);
   font-size: 62.5%;
   --surface-color: rgba(255, 255, 255, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
   --social-link-hover: rgba(255, 255, 255, 0.2);
-  --switch-bg-url: url(./assets/img/dark-button.svg);
+  --switch-bg-url: url(./img/dark-button.svg);
 }
 
 .light {
   --text-color: black;
-  --bg-url: url(./assets/img/bg-mobile-light.jpg);
+  --bg-url: url(./img/bg-mobile-light.jpg);
   --stroke-color: rgba(0, 0, 0, 0.5);
   --surface-color: rgba(0, 0, 0, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
   --social-link-hover: rgba(0, 0, 0, 0.1);
-  --switch-bg-url: url(./assets/img/light-button.svg);
+  --switch-bg-url: url(/img/light-button.svg);
 
 }
 
@@ -256,10 +256,10 @@ footer {
 
 @media (min-width: 700px) {
   :root {
-    --bg-url: url(./assets/img/bg-desktop-dark.jpg);
+    --bg-url: url(./img/bg-desktop-dark.jpg);
   }
 
   .light {
-    --bg-url: url(./assets/img/bg-desktop-light.jpg);
+    --bg-url: url(./img/bg-desktop-light.jpg);
   }
 }
